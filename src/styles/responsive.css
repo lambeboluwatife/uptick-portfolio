@@ -138,9 +138,49 @@
 
   .home .heading strong {
     font-size: 30px;
+    margin-bottom: 1rem;
   }
 
-  .home h6 {
-    font-size: 10px;
+  .contact-info {
+    font-size: small;
+  }
+
+  .contact-info .icon {
+    font-size: 20px;
+  }
+
+  .contact .grid .contact-form form input,
+  .contact .grid .contact-form form textarea {
+    width: 20rem;
+  }
+
+  .contact .grid .contact-form form textarea {
+    height: 80px;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 320px) {
+  .about .about-content ul {
+    margin-top: 1.5rem;
+  }
+
+  .skills .backend-skills {
+    margin-top: 2rem;
+  }
+
+  .skills .frontend-skills .skills-flex .skill .icon,
+  .skills .backend-skills .skills-flex .skill .icon {
+    font-size: 30px;
+  }
+
+  .skills .frontend-skills .skills-flex .skill,
+  .skills .backend-skills .skills-flex .skill {
+    padding: 1.5px;
+  }
+
+  .contact .grid .contact-form form input,
+  .contact .grid .contact-form form textarea {
+    width: 18rem;
   }
 }
