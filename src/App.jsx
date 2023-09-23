@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import "./App.css";
 import Home from "./components/Home";
@@ -8,12 +9,18 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faRemove } from "@fortawesome/free-solid-svg-icons";
 import { useLocation } from "react-router-dom";
 import SideNav from "./components/SideNav";
 
 const App = () => {
   const location = useLocation();
+
+  const [sideNav, setShowSideNav] = useState(false);
+
+  const toggleSideNav = () => {
+    setShowSideNav(!sideNav);
+  };
 
   let menuStyle = "";
   if (location.pathname === "/about") {
@@ -31,8 +38,13 @@ const App = () => {
         <Nav />
       </div>
       <div className="column right">
-        <FontAwesomeIcon className={`fa-2x menu ${menuStyle}`} icon={faBars} />
-        <SideNav />
+        {sideNav && <SideNav toggleSideNav={toggleSideNav} />}
+
+        <FontAwesomeIcon
+          className={`fa-2x menu ${menuStyle}`}
+          icon={sideNav ? faRemove : faBars}
+          onClick={toggleSideNav}
+        />
 
         <Routes>
           <Route path="/" element={<Home />} />
