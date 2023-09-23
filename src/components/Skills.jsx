@@ -28,7 +28,7 @@ const Skills = () => {
             <span class="number">
               <strong>01.</strong>
             </span>
-            <span>Web Development (Frontend)</span>
+            <span> Web Development (Frontend)</span>
             <h6>Harnessing Frontend Skills for Modern Development.</h6>
           </b>
           <div class="skills-flex">
@@ -60,7 +60,7 @@ const Skills = () => {
             <span class="number">
               <strong>02.</strong>
             </span>
-            <span>Web Development (Backend)</span>
+            <span> Web Development (Backend)</span>
             <h6>Building Robust and Scalable Web Applications.</h6>
           </b>
 
