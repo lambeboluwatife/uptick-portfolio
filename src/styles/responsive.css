@@ -36,3 +36,23 @@
     margin-top: 2rem;
   }
 }
+
+/* Mobile */
+@media all and (max-width: 500px) {
+  .column {
+    float: none;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu {
+    display: block;
+  }
+}
