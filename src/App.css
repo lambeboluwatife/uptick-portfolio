@@ -96,14 +96,12 @@
 .skills {
   background-color: rgb(61, 60, 60);
   padding: 40px;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .skills h1,
 .experience h1 {
   font-family: "Teko", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(212, 210, 210);
   border-bottom: 3px solid orangered;
   display: inline-block;
@@ -159,7 +157,6 @@
   padding: 40px;
   background-color: rgb(48, 47, 47);
   color: rgb(212, 210, 210);
-  overflow: hidden;
 }
 
 .experience h6 {
@@ -190,6 +187,7 @@
 
 .experience .work .work-info {
   padding-left: 2rem;
+  line-height: 1.2;
 }
 
 .experience .work .work-info2 {
@@ -322,6 +320,7 @@
 
 .contact-form {
   padding: 0 20px;
+  height: 100vh;
 }
 
 .contact-form h3 {
