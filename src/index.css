@@ -68,6 +68,7 @@ body {
   padding: 20px;
   color: #000;
   background-color: #fff;
+  display: none;
 }
 
 .nav {
@@ -221,6 +222,30 @@ body {
 
 .nav.skillStyle .social-links .social a:hover {
   color: rgb(118, 117, 117);
+}
+
+.sidenav .btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sidenav button {
+  background-color: #00ff00;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.2rem 0.5rem;
+  width: 5rem;
+  border: 1px solid #00ff00;
+  border-radius: 10px;
+}
+
+.sidenav button.aboutStyle {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.sidenav button.skillStyle {
+  background-color: orangered;
+  border: 1px solid orangered;
 }
 
 .grid {

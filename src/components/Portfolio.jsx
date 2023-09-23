@@ -3,7 +3,7 @@ import portfolios from "../data/portfolio";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h1>PORTFOLIO</h1>
+      <h1 className="heading">PORTFOLIO</h1>
       <h3>For your view, this is a demonstration of my skill set.</h3>
 
       <div className="grid">
