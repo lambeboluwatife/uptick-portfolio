@@ -1,7 +1,7 @@
 import weather from "../images/weather.webp";
 import gkai from "../images/gkai.webp";
 import camp from "../images/camp.webp";
-import eventrite from "../images/show.webp";
+import eventful from "../images/eventful.webp";
 import lbdflix from "../images/lbdflix.webp";
 import hirewave from "../images/hirewave.webp";
 
@@ -21,7 +21,7 @@ const portfolios = [
     image: hirewave,
     desc: "Hirewave is an app that connect you with the best emerging talent, helping you build a dynamic team that drives growth and innovation.",
     live: "https://www.hirewave.net/",
-    source: "https://github.com/lambeboluwatife/LBDmovies",
+    source: "https://github.com/lambeboluwatife/hirewave-merge",
     id: 2,
   },
   {
@@ -43,13 +43,13 @@ const portfolios = [
     id: 4,
   },
   {
-    name: "Eventrite",
+    name: "Eventful",
     skills:
-      "HTML5 | CSS | Bootstrap | JavaScript | EJS | NodeJS | ExpressJS | MongoDB | Mongoose",
-    image: eventrite,
+      "HTML5 | CSS | JavaScript | ReactJS | NextJS | NodeJS | ExpressJS | MongoDB | Mongoose",
+    image: eventful,
     desc: "Host and create events online from Conferences, Hackathons, Conventions, Exhibitions, Seminars, Festivals, Trade Fair, etc.",
-    live: "https://eventrite.boluwatifelambe.repl.co/",
-    source: "https://github.com/lambeboluwatife/eventrite",
+    live: "https://eventful-frontend.vercel.app/",
+    source: "https://github.com/lambeboluwatife/altschool-eventful-frontend",
     id: 5,
   },
   {
