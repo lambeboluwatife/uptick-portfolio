@@ -4,7 +4,11 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <h1 className="heading">PORTFOLIO</h1>
-      <h3>For your view, this is a demonstration of my skill set.</h3>
+      <h3>
+        From concept to deployment, each project I build is designed to solve
+        real-world problems with a mix of creativity and technical expertise.
+        Here’s a look at how I approach each step of development.
+      </h3>
 
       <div className="grid">
         {portfolios.map((portfolio) => (
