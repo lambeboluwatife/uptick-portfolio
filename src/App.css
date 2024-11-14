@@ -100,7 +100,7 @@
 
 .skills {
   background-color: rgb(61, 60, 60);
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .skills h1,
@@ -110,7 +110,7 @@
   color: rgb(212, 210, 210);
   border-bottom: 3px solid orangered;
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .skills h3 {
@@ -119,11 +119,11 @@
 }
 
 .frontend-skills {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .backend-skills {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .skills .frontend-skills b,
@@ -149,9 +149,11 @@
   font-family: "Teko", sans-serif;
   font-size: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .skill h6 {
@@ -160,7 +162,7 @@
 }
 
 .experience {
-  padding: 40px;
+  padding: 20px 40px;
   background-color: rgb(48, 47, 47);
   color: rgb(212, 210, 210);
 }

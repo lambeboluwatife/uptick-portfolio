@@ -5,16 +5,19 @@ import {
   faJsSquare,
   faReact,
   faBootstrap,
-  faNodeJs,
-  faNode,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { faLaptop } from "@fortawesome/free-solid-svg-icons";
+
+import { FaGitAlt, FaNodeJs } from "react-icons/fa";
+import { FaCode } from "react-icons/fa6";
 import {
-  faCode,
-  faDatabase,
-  faLaptop,
-  faM,
-} from "@fortawesome/free-solid-svg-icons";
+  BiLogoTypescript,
+  BiLogoTailwindCss,
+  BiLogoMongodb,
+} from "react-icons/bi";
+import { RiNextjsFill, RiFirebaseFill } from "react-icons/ri";
+import { SiExpress, SiMongoose } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -33,24 +36,47 @@ const Skills = () => {
           </b>
           <div class="skills-flex">
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faHtml5} />
+              <FontAwesomeIcon className="fa-2x icon" icon={faHtml5} />
               <h6>HTML</h6>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faCss3} />
+              <FontAwesomeIcon className="fa-2x icon" icon={faCss3} />
               <h6>CSS</h6>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faJsSquare} />
+              <FontAwesomeIcon className="fa-2x icon" icon={faJsSquare} />
               <h6>JAVASCRIPT</h6>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faReact} />
+              <FontAwesomeIcon className="fa-2x icon" icon={faReact} />
               <h6>REACT</h6>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faBootstrap} />
+              <FontAwesomeIcon className="fa-2x icon" icon={faBootstrap} />
               <h6>BOOTSTRAP</h6>
+            </div>
+          </div>
+          <div className="skills-flex">
+            {" "}
+            <div className="skill">
+              <BiLogoTypescript className="fa-2x icon" />
+              <h6>TYPESCRIPT</h6>
+            </div>
+            <div className="skill">
+              <RiNextjsFill className="fa-2x icon" />
+              <h6>NEXT</h6>
+            </div>
+            <div className="skill">
+              <BiLogoTailwindCss className="fa-2x icon" />
+              <h6>Tailwind CSS</h6>
+            </div>
+            <div className="skill">
+              <RiFirebaseFill className="fa-2x icon" />
+              <h6>FIREBASE</h6>
+            </div>
+            <div className="skill">
+              <FaGitAlt className="fa-2x icon" />
+              <h6>GIT</h6>
             </div>
           </div>
         </div>
@@ -66,26 +92,26 @@ const Skills = () => {
 
           <div class="skills-flex">
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faNode} />
+              <FaNodeJs className="fa-2x icon" />
               <h6>NODEJS</h6>
             </div>
 
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faNodeJs} />
+              <SiExpress className="fa-2x icon" />
               <h6>EXPRESSJS</h6>
             </div>
 
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faDatabase} />
+              <BiLogoMongodb className="fa-2x icon" />
               <h6>MONGODB</h6>
             </div>
 
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faCode} />
+              <FaCode className="fa-2x icon" />
               <h6>EJS</h6>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="fa-3x icon" icon={faM} />
+              <SiMongoose className="fa-2x icon" />
               <h6>MONGOOSE</h6>
             </div>
           </div>
@@ -101,7 +127,7 @@ const Skills = () => {
         </h6>
         <div className="works">
           <div className="work">
-            <FontAwesomeIcon className="fa-3x icon" icon={faLaptop} />
+            <FontAwesomeIcon className="fa-2x icon" icon={faLaptop} />
             <div className="work-info">
               <h4>ANDELA</h4>
               <h2>WEB DEVELOPER (INTERN)</h2>
@@ -110,7 +136,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="work">
-            <FontAwesomeIcon className="fa-3x icon2" icon={faLaptop} />
+            <FontAwesomeIcon className="fa-2x icon2" icon={faLaptop} />
             <div className="work-info work-info2">
               <h4>GODONWEB TECHNOLOGIES</h4>
               <h2>SOFTWARE ENGINEER</h2>
@@ -119,7 +145,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="work ">
-            <FontAwesomeIcon className="fa-3x icon" icon={faLaptop} />
+            <FontAwesomeIcon className="fa-2x icon" icon={faLaptop} />
             <div className="work-info">
               <h4>ENOVERLAB</h4>
               <h2>LEAD FRONTEND ENGINEER</h2>
