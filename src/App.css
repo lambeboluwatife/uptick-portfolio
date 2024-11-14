@@ -58,19 +58,20 @@
 }
 
 .about ul {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .about ul li {
   list-style-type: none;
   font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
   padding: 0.5rem;
   border-bottom: 1px solid darkgray;
 }
 
 .about h3 {
   display: inline-block;
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0;
   font-family: "Teko", sans-serif;
   border-bottom: 2px solid red;
 }
@@ -256,6 +257,12 @@
 .portfolio .work h6 {
   padding: 0.5rem 5rem 0 0;
   color: whitesmoke;
+}
+
+.portfolio .work h6 strong {
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: #00ff00;
 }
 
 .link {
