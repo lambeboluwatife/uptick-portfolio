@@ -1,4 +1,4 @@
-import Resume from "../assets/BoluwatifeLambe_2.pdf";
+import Resume from "../assets/Boluwatife Lambe with portfolio.pdf";
 
 const About = () => {
   return (
