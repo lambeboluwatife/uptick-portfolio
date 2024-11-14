@@ -26,18 +26,24 @@ const About = () => {
 
           <h3>PROFESSIONAL PROFILE</h3>
           <h6>
-            I am a Web Developer skilled in HTML, CSS, JavaScript, NodeJS,
-            Bootstrap, ExpressJS, EJS, and MongoDB. My love for video games, and
-            the idea of being able to build applications lured me into
-            programming. <br /> I attribute my growth as a developer to
-            consistent learning and development and also takes pride and
-            pleasure in teaching and imparting people with my wealth of
-            knowledge. <br /> When I'm not coding or studying, I spend my
-            leisure time playing games, watching movies, and series.
+            I am a dedicated and versatile software developer with front-end and
+            back-end development expertise. I specialize in the MERN stack
+            (MongoDB, Express, React, and Node.js). With a background in
+            building and maintaining scalable web applications, I bring a
+            balanced approach to software development that prioritizes
+            performance, user experience, and maintainability.
+            <br /> <br />
+            My technical proficiency spans HTML, CSS, JavaScript, React, and
+            backend technologies, enabling me to develop end-to-end solutions
+            for various applications. In addition to technical skills, I am
+            passionate about continuous learning and contributing to the
+            developer community. A former Andela intern, I now collaborate
+            within the developer ecosystem, offering mentorship and insight to
+            emerging developers. Known for a proactive problem-solving mindset,
           </h6>
 
           <a href={Resume} rel="noreferrer" target="_blank">
-            DOWNLOAD RESUME AS PDF FORMAT
+            DOWNLOAD RESUME
           </a>
         </div>
         <div className="about-img"></div>

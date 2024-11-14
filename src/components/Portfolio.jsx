@@ -14,7 +14,9 @@ const Portfolio = () => {
         {portfolios.map((portfolio) => (
           <div className="work" key={portfolio.id}>
             <h3>{portfolio.name}</h3>
-            <h6>{portfolio.skills}</h6>
+            <h6>
+              <strong>{portfolio.skills}</strong>
+            </h6>
             <h6>{portfolio.desc}</h6>
             <img src={portfolio.image} alt={portfolio.name} />
             <div className="link">
