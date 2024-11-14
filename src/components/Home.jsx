@@ -6,12 +6,15 @@ const Home = () => {
         <strong> LAMBE BOLUWATIFE</strong>
       </h1>
       <h6>
-        I AM A <strong>FRONTEND DEVELOPER</strong> FROM NIGERIA. <br /> I{" "}
-        <strong>THINK</strong>, I <strong>WRITE CODES</strong>, AND{" "}
-        <strong>DEVELOP MODERN WEB PAGES</strong>. <br /> AND THIS IS MY
-        <strong> PORTFOLIO WEBSITE</strong>.
-        <br /> <strong>GREAT, ISN'T IT.</strong>
+        I AM A <strong>FULLSTACK DEVELOPER</strong> FROM NIGERIA. <br /> I{" "}
+        <strong>THINK</strong>, I <strong>BUILD</strong>, AND{" "}
+        <strong>I BRING IDEAS TO LIFE THROUGH CODE</strong>. <br /> FROM
+        <strong> DYNAMIC FRONTENDS TO POWERFUL BACKENDS</strong>. <br />
+        I CREATE MODERN, USER-CENTERED WEB EXPERIENCES.
+        <br /> <strong>WELCOME TO MY PORTFOLIO.</strong>
       </h6>
+
+      <a href="/portfolio">See How I Build</a>
     </div>
   );
 };
