@@ -10,7 +10,6 @@ const Contact = () => {
         <div className="grid">
           <div className="contact-details">
             <h4>
-              {" "}
               I am always ready to serve my clients; <br /> call or reach out
               today for your website.
             </h4>
