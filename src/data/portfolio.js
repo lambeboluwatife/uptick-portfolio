@@ -20,7 +20,7 @@ const portfolios = [
     skills: "ReactJS | CSS | JavaScript | DexisJS",
     image: hirewave,
     desc: "Hirewave is an app that connect you with the best emerging talent, helping you build a dynamic team that drives growth and innovation.",
-    live: "https://www.hirewave.net/",
+    live: "https://hirewave-merge.vercel.app/",
     source: "https://github.com/lambeboluwatife/hirewave-merge",
     id: 2,
   },
